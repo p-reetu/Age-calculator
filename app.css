@@ -1,0 +1,80 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  body {
+    background-color: hsl(0, 0%, 94%);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .main {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px 15px 200px 15px;
+  }
+
+  input {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  span {
+    color: hsl(259, 100%, 65%);
+  }
+
+  #main-row {
+    height: 100vh;
+  }
+
+  h1 {
+    font-size: 90px;
+  }
+
+  button {
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 100%;
+    border: none;
+  }
+
+  button:hover {
+    background-color: hsl(0, 0%, 0%);
+    border-radius: 100%;
+    border: none;
+  }
+
+  #theme-toggle {
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+    border-radius: 50%;
+  }
+
+  #theme-toggle:hover {
+    background-color: hsl(259, 56%, 51%);
+  }
+
+  .dark-theme #main-row .main {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .dark-theme #main-row .main .btn-primary {
+    background-color: hsl(259, 100%, 65%);
+    color: #fff;
+  }
+
+  .dark-theme #main-row .main .btn-primary:hover {
+    background-color: hsl(259, 100%, 65%);
+    color: #fff;
+  }
+
+  .dark-theme #main-row .main hr {
+    border-color: #fff;
+  }
+
+  .dark-theme #main-row .main .form-label.text-grey {
+    color: #fff;
+  }
